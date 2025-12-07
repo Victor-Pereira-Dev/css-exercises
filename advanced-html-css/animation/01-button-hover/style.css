@@ -8,6 +8,12 @@
   font-family: Arial, sans-serif;
 }
 
+#transition-container button:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+  font-weight: bold;
+}
+
 button {
   border-radius: 8px;
   border: none;
